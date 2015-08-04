@@ -1,0 +1,27 @@
+$ORIGIN	35.2.10.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+1	IN	PTR	ntp01.toppay.com.
+2	IN	PTR	ntp02.toppay.com.
+1	IN	PTR	ntp01.toppay.com.
+2	IN	PTR	ntp02.toppay.com.
+1	IN	PTR	ntp01.toppay.com.
+2	IN	PTR	ntp02.toppay.com.
+1	IN	PTR	ntp01.toppay.com.
+2	IN	PTR	ntp02.toppay.com.
+1	IN	PTR	ntp01.toppay.com.
+2	IN	PTR	ntp02.toppay.com.

@@ -1,0 +1,82 @@
+$ORIGIN	64.10.10.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+251	IN	PTR	dgs-iscsi01.toppay.com.
+252	IN	PTR	dgs-iscsi02.toppay.com.
+61	IN	PTR	dgs01.toppay.com.
+62	IN	PTR	dgs02.toppay.com.
+63	IN	PTR	dgs03.toppay.com.
+64	IN	PTR	dgs04.toppay.com.
+71	IN	PTR	dgs01-vip.toppay.com.
+72	IN	PTR	dgs02-vip.toppay.com.
+73	IN	PTR	dgs03-vip.toppay.com.
+74	IN	PTR	dgs04-vip.toppay.com.
+81	IN	PTR	dgs-cluster-scan.toppay.com.
+82	IN	PTR	dgs-cluster-scan.toppay.com.
+83	IN	PTR	dgs-cluster-scan.toppay.com.
+251	IN	PTR	dgs-iscsi01.toppay.com.
+252	IN	PTR	dgs-iscsi02.toppay.com.
+61	IN	PTR	dgs01.toppay.com.
+62	IN	PTR	dgs02.toppay.com.
+63	IN	PTR	dgs03.toppay.com.
+64	IN	PTR	dgs04.toppay.com.
+71	IN	PTR	dgs01-vip.toppay.com.
+72	IN	PTR	dgs02-vip.toppay.com.
+73	IN	PTR	dgs03-vip.toppay.com.
+74	IN	PTR	dgs04-vip.toppay.com.
+81	IN	PTR	dgs-cluster-scan.toppay.com.
+82	IN	PTR	dgs-cluster-scan.toppay.com.
+83	IN	PTR	dgs-cluster-scan.toppay.com.
+251	IN	PTR	dgs-iscsi01.toppay.com.
+252	IN	PTR	dgs-iscsi02.toppay.com.
+61	IN	PTR	dgs01.toppay.com.
+62	IN	PTR	dgs02.toppay.com.
+63	IN	PTR	dgs03.toppay.com.
+64	IN	PTR	dgs04.toppay.com.
+71	IN	PTR	dgs01-vip.toppay.com.
+72	IN	PTR	dgs02-vip.toppay.com.
+73	IN	PTR	dgs03-vip.toppay.com.
+74	IN	PTR	dgs04-vip.toppay.com.
+81	IN	PTR	dgs-cluster-scan.toppay.com.
+82	IN	PTR	dgs-cluster-scan.toppay.com.
+83	IN	PTR	dgs-cluster-scan.toppay.com.
+251	IN	PTR	dgs-iscsi01.toppay.com.
+252	IN	PTR	dgs-iscsi02.toppay.com.
+61	IN	PTR	dgs01.toppay.com.
+62	IN	PTR	dgs02.toppay.com.
+63	IN	PTR	dgs03.toppay.com.
+64	IN	PTR	dgs04.toppay.com.
+71	IN	PTR	dgs01-vip.toppay.com.
+72	IN	PTR	dgs02-vip.toppay.com.
+73	IN	PTR	dgs03-vip.toppay.com.
+74	IN	PTR	dgs04-vip.toppay.com.
+81	IN	PTR	dgs-cluster-scan.toppay.com.
+82	IN	PTR	dgs-cluster-scan.toppay.com.
+83	IN	PTR	dgs-cluster-scan.toppay.com.
+251	IN	PTR	dgs-iscsi01.toppay.com.
+252	IN	PTR	dgs-iscsi02.toppay.com.
+61	IN	PTR	dgs01.toppay.com.
+62	IN	PTR	dgs02.toppay.com.
+63	IN	PTR	dgs03.toppay.com.
+64	IN	PTR	dgs04.toppay.com.
+71	IN	PTR	dgs01-vip.toppay.com.
+72	IN	PTR	dgs02-vip.toppay.com.
+73	IN	PTR	dgs03-vip.toppay.com.
+74	IN	PTR	dgs04-vip.toppay.com.
+81	IN	PTR	dgs-cluster-scan.toppay.com.
+82	IN	PTR	dgs-cluster-scan.toppay.com.
+83	IN	PTR	dgs-cluster-scan.toppay.com.

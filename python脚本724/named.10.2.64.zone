@@ -1,0 +1,43 @@
+$ORIGIN	64.2.10.in-addr.arpa.
+$TTL			86400
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+			2011021600		; serial (d. adams)
+			3H						; refresh
+			1H						; retry
+			1W						; expiry
+			1H )					; minimum
+@		IN		PTR		dns.toppay.com.
+ 		  		   		
+1		IN		PTR		rac01.toppay.com.
+2		IN		PTR		rac02.toppay.com.
+3		IN		PTR		rac03.toppay.com.
+4		IN		PTR		rac04.toppay.com.
+
+11	IN		PTR		rac01-vip.toppay.com.
+12	IN		PTR		rac02-vip.toppay.com.
+13	IN		PTR		rac03-vip.toppay.com.
+14	IN		PTR		rac04-vip.toppay.com.
+
+21	IN		PTR		rac-cluster-scan.toppay.com.
+22	IN		PTR		rac-cluster-scan.toppay.com.
+23	IN		PTR		rac-cluster-scan.toppay.com. 	
+  		   		  	  		   		
+31	IN		PTR		dgm01.toppay.com.
+32	IN		PTR		dgm02.toppay.com.
+33	IN		PTR		dgm03.toppay.com.
+34	IN		PTR		dgm04.toppay.com.
+
+41	IN		PTR		dgm01-vip.toppay.com.
+42	IN		PTR		dgm02-vip.toppay.com.
+43	IN		PTR		dgm03-vip.toppay.com.
+44	IN		PTR		dgm04-vip.toppay.com.
+
+51	IN		PTR		dgm-cluster-scan.toppay.com.
+52	IN		PTR		dgm-cluster-scan.toppay.com.
+53	IN		PTR		dgm-cluster-scan.toppay.com.  
+	
+241	IN		PTR		dgm-iscsi01.toppay.com
+242	IN		PTR		dgm-iscsi02.toppay.com
+
+251	IN		PTR		racm-iscsi01.toppay.com.
+252	IN		PTR		racm-iscsi02.toppay.com.

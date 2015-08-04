@@ -1,0 +1,37 @@
+$ORIGIN	67.168.192.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+11	IN	PTR	kmc-rac01-pri.toppay.com.
+12	IN	PTR	kmc-rac02-pri.toppay.com.
+11	IN	PTR	kmc-rac03-pri.toppay.com.
+12	IN	PTR	kmc-rac04-pri.toppay.com.
+11	IN	PTR	kmc-rac01-pri.toppay.com.
+12	IN	PTR	kmc-rac02-pri.toppay.com.
+11	IN	PTR	kmc-rac03-pri.toppay.com.
+12	IN	PTR	kmc-rac04-pri.toppay.com.
+11	IN	PTR	kmc-rac01-pri.toppay.com.
+12	IN	PTR	kmc-rac02-pri.toppay.com.
+11	IN	PTR	kmc-rac03-pri.toppay.com.
+12	IN	PTR	kmc-rac04-pri.toppay.com.
+11	IN	PTR	kmc-rac01-pri.toppay.com.
+12	IN	PTR	kmc-rac02-pri.toppay.com.
+11	IN	PTR	kmc-rac03-pri.toppay.com.
+12	IN	PTR	kmc-rac04-pri.toppay.com.
+11	IN	PTR	kmc-rac01-pri.toppay.com.
+12	IN	PTR	kmc-rac02-pri.toppay.com.
+11	IN	PTR	kmc-rac03-pri.toppay.com.
+12	IN	PTR	kmc-rac04-pri.toppay.com.

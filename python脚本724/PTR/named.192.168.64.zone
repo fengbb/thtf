@@ -1,0 +1,57 @@
+$ORIGIN	64.168.192.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+11	IN	PTR	rac01-pri.toppay.com.
+12	IN	PTR	rac02-pri.toppay.com.
+13	IN	PTR	rac03-pri.toppay.com.
+14	IN	PTR	rac04-pri.toppay.com.
+41	IN	PTR	dgm01-pri.toppay.com.
+42	IN	PTR	dgm02-pri.toppay.com.
+43	IN	PTR	dgm03-pri.toppay.com.
+44	IN	PTR	dgm04-pri.toppay.com.
+11	IN	PTR	rac01-pri.toppay.com.
+12	IN	PTR	rac02-pri.toppay.com.
+13	IN	PTR	rac03-pri.toppay.com.
+14	IN	PTR	rac04-pri.toppay.com.
+41	IN	PTR	dgm01-pri.toppay.com.
+42	IN	PTR	dgm02-pri.toppay.com.
+43	IN	PTR	dgm03-pri.toppay.com.
+44	IN	PTR	dgm04-pri.toppay.com.
+11	IN	PTR	rac01-pri.toppay.com.
+12	IN	PTR	rac02-pri.toppay.com.
+13	IN	PTR	rac03-pri.toppay.com.
+14	IN	PTR	rac04-pri.toppay.com.
+41	IN	PTR	dgm01-pri.toppay.com.
+42	IN	PTR	dgm02-pri.toppay.com.
+43	IN	PTR	dgm03-pri.toppay.com.
+44	IN	PTR	dgm04-pri.toppay.com.
+11	IN	PTR	rac01-pri.toppay.com.
+12	IN	PTR	rac02-pri.toppay.com.
+13	IN	PTR	rac03-pri.toppay.com.
+14	IN	PTR	rac04-pri.toppay.com.
+41	IN	PTR	dgm01-pri.toppay.com.
+42	IN	PTR	dgm02-pri.toppay.com.
+43	IN	PTR	dgm03-pri.toppay.com.
+44	IN	PTR	dgm04-pri.toppay.com.
+11	IN	PTR	rac01-pri.toppay.com.
+12	IN	PTR	rac02-pri.toppay.com.
+13	IN	PTR	rac03-pri.toppay.com.
+14	IN	PTR	rac04-pri.toppay.com.
+41	IN	PTR	dgm01-pri.toppay.com.
+42	IN	PTR	dgm02-pri.toppay.com.
+43	IN	PTR	dgm03-pri.toppay.com.
+44	IN	PTR	dgm04-pri.toppay.com.

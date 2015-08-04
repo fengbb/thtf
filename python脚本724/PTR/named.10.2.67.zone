@@ -1,0 +1,82 @@
+$ORIGIN	67.2.10.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+251	IN	PTR	kmc-racm-iscsi01.toppay.com.
+252	IN	PTR	kmc-racm-iscsi02.toppay.com.
+1	IN	PTR	kmc-rac01.toppay.com.
+2	IN	PTR	kmc-rac02.toppay.com.
+3	IN	PTR	kmc-rac03.toppay.com.
+4	IN	PTR	kmc-rac04.toppay.com.
+11	IN	PTR	kmc-rac01-vip.toppay.com.
+12	IN	PTR	kmc-rac02-vip.toppay.com.
+13	IN	PTR	kmc-rac03-vip.toppay.com.
+14	IN	PTR	kmc-rac04-vip.toppay.com.
+21	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+22	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+23	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+251	IN	PTR	kmc-racm-iscsi01.toppay.com.
+252	IN	PTR	kmc-racm-iscsi02.toppay.com.
+1	IN	PTR	kmc-rac01.toppay.com.
+2	IN	PTR	kmc-rac02.toppay.com.
+3	IN	PTR	kmc-rac03.toppay.com.
+4	IN	PTR	kmc-rac04.toppay.com.
+11	IN	PTR	kmc-rac01-vip.toppay.com.
+12	IN	PTR	kmc-rac02-vip.toppay.com.
+13	IN	PTR	kmc-rac03-vip.toppay.com.
+14	IN	PTR	kmc-rac04-vip.toppay.com.
+21	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+22	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+23	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+251	IN	PTR	kmc-racm-iscsi01.toppay.com.
+252	IN	PTR	kmc-racm-iscsi02.toppay.com.
+1	IN	PTR	kmc-rac01.toppay.com.
+2	IN	PTR	kmc-rac02.toppay.com.
+3	IN	PTR	kmc-rac03.toppay.com.
+4	IN	PTR	kmc-rac04.toppay.com.
+11	IN	PTR	kmc-rac01-vip.toppay.com.
+12	IN	PTR	kmc-rac02-vip.toppay.com.
+13	IN	PTR	kmc-rac03-vip.toppay.com.
+14	IN	PTR	kmc-rac04-vip.toppay.com.
+21	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+22	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+23	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+251	IN	PTR	kmc-racm-iscsi01.toppay.com.
+252	IN	PTR	kmc-racm-iscsi02.toppay.com.
+1	IN	PTR	kmc-rac01.toppay.com.
+2	IN	PTR	kmc-rac02.toppay.com.
+3	IN	PTR	kmc-rac03.toppay.com.
+4	IN	PTR	kmc-rac04.toppay.com.
+11	IN	PTR	kmc-rac01-vip.toppay.com.
+12	IN	PTR	kmc-rac02-vip.toppay.com.
+13	IN	PTR	kmc-rac03-vip.toppay.com.
+14	IN	PTR	kmc-rac04-vip.toppay.com.
+21	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+22	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+23	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+251	IN	PTR	kmc-racm-iscsi01.toppay.com.
+252	IN	PTR	kmc-racm-iscsi02.toppay.com.
+1	IN	PTR	kmc-rac01.toppay.com.
+2	IN	PTR	kmc-rac02.toppay.com.
+3	IN	PTR	kmc-rac03.toppay.com.
+4	IN	PTR	kmc-rac04.toppay.com.
+11	IN	PTR	kmc-rac01-vip.toppay.com.
+12	IN	PTR	kmc-rac02-vip.toppay.com.
+13	IN	PTR	kmc-rac03-vip.toppay.com.
+14	IN	PTR	kmc-rac04-vip.toppay.com.
+21	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+22	IN	PTR	kmc-rac-cluster-scan.toppay.com.
+23	IN	PTR	kmc-rac-cluster-scan.toppay.com.

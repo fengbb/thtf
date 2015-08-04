@@ -1,0 +1,27 @@
+$ORIGIN	0.0.10.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+240	IN	PTR	cobbler.toppay.com.
+241	IN	PTR	file-server.toppay.com.
+240	IN	PTR	cobbler.toppay.com.
+241	IN	PTR	file-server.toppay.com.
+240	IN	PTR	cobbler.toppay.com.
+241	IN	PTR	file-server.toppay.com.
+240	IN	PTR	cobbler.toppay.com.
+241	IN	PTR	file-server.toppay.com.
+240	IN	PTR	cobbler.toppay.com.
+241	IN	PTR	file-server.toppay.com.

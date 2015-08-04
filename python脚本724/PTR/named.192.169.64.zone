@@ -1,0 +1,37 @@
+$ORIGIN	64.169.192.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+71	IN	PTR	dgs01-pri.toppay.com.
+72	IN	PTR	dgs02-pri.toppay.com.
+73	IN	PTR	dgs03-pri.toppay.com.
+74	IN	PTR	dgs04-pri.toppay.com.
+71	IN	PTR	dgs01-pri.toppay.com.
+72	IN	PTR	dgs02-pri.toppay.com.
+73	IN	PTR	dgs03-pri.toppay.com.
+74	IN	PTR	dgs04-pri.toppay.com.
+71	IN	PTR	dgs01-pri.toppay.com.
+72	IN	PTR	dgs02-pri.toppay.com.
+73	IN	PTR	dgs03-pri.toppay.com.
+74	IN	PTR	dgs04-pri.toppay.com.
+71	IN	PTR	dgs01-pri.toppay.com.
+72	IN	PTR	dgs02-pri.toppay.com.
+73	IN	PTR	dgs03-pri.toppay.com.
+74	IN	PTR	dgs04-pri.toppay.com.
+71	IN	PTR	dgs01-pri.toppay.com.
+72	IN	PTR	dgs02-pri.toppay.com.
+73	IN	PTR	dgs03-pri.toppay.com.
+74	IN	PTR	dgs04-pri.toppay.com.

@@ -1,0 +1,82 @@
+$ORIGIN	65.10.10.in-addr.arpa.
+$TTL			86400
+
+@			IN		SOA		dns.toppay.com.		dns.toppay.com. (
+
+			2011021600		; serial (d. adams)
+
+			3H			; refresh
+
+			1H			; retry
+
+			1W			; expiry
+
+			1H )			; minimum
+
+@		IN		PTR		dns.toppay.com.
+
+251	IN	PTR	ca-dgs-iscsi01.toppay.com.
+252	IN	PTR	ca-dgs-iscsi02.toppay.com.
+31	IN	PTR	ca-dgs01.toppay.com.
+32	IN	PTR	ca-dgs02.toppay.com.
+31	IN	PTR	ca-dgs03.toppay.com.
+32	IN	PTR	ca-dgs04.toppay.com.
+41	IN	PTR	ca-dgs01-vip.toppay.com.
+42	IN	PTR	ca-dgs02-vip.toppay.com.
+43	IN	PTR	ca-dgs03-vip.toppay.com.
+44	IN	PTR	ca-dgs04-vip.toppay.com.
+51	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+52	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+53	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+251	IN	PTR	ca-dgs-iscsi01.toppay.com.
+252	IN	PTR	ca-dgs-iscsi02.toppay.com.
+31	IN	PTR	ca-dgs01.toppay.com.
+32	IN	PTR	ca-dgs02.toppay.com.
+31	IN	PTR	ca-dgs03.toppay.com.
+32	IN	PTR	ca-dgs04.toppay.com.
+41	IN	PTR	ca-dgs01-vip.toppay.com.
+42	IN	PTR	ca-dgs02-vip.toppay.com.
+43	IN	PTR	ca-dgs03-vip.toppay.com.
+44	IN	PTR	ca-dgs04-vip.toppay.com.
+51	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+52	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+53	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+251	IN	PTR	ca-dgs-iscsi01.toppay.com.
+252	IN	PTR	ca-dgs-iscsi02.toppay.com.
+31	IN	PTR	ca-dgs01.toppay.com.
+32	IN	PTR	ca-dgs02.toppay.com.
+31	IN	PTR	ca-dgs03.toppay.com.
+32	IN	PTR	ca-dgs04.toppay.com.
+41	IN	PTR	ca-dgs01-vip.toppay.com.
+42	IN	PTR	ca-dgs02-vip.toppay.com.
+43	IN	PTR	ca-dgs03-vip.toppay.com.
+44	IN	PTR	ca-dgs04-vip.toppay.com.
+51	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+52	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+53	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+251	IN	PTR	ca-dgs-iscsi01.toppay.com.
+252	IN	PTR	ca-dgs-iscsi02.toppay.com.
+31	IN	PTR	ca-dgs01.toppay.com.
+32	IN	PTR	ca-dgs02.toppay.com.
+31	IN	PTR	ca-dgs03.toppay.com.
+32	IN	PTR	ca-dgs04.toppay.com.
+41	IN	PTR	ca-dgs01-vip.toppay.com.
+42	IN	PTR	ca-dgs02-vip.toppay.com.
+43	IN	PTR	ca-dgs03-vip.toppay.com.
+44	IN	PTR	ca-dgs04-vip.toppay.com.
+51	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+52	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+53	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+251	IN	PTR	ca-dgs-iscsi01.toppay.com.
+252	IN	PTR	ca-dgs-iscsi02.toppay.com.
+31	IN	PTR	ca-dgs01.toppay.com.
+32	IN	PTR	ca-dgs02.toppay.com.
+31	IN	PTR	ca-dgs03.toppay.com.
+32	IN	PTR	ca-dgs04.toppay.com.
+41	IN	PTR	ca-dgs01-vip.toppay.com.
+42	IN	PTR	ca-dgs02-vip.toppay.com.
+43	IN	PTR	ca-dgs03-vip.toppay.com.
+44	IN	PTR	ca-dgs04-vip.toppay.com.
+51	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+52	IN	PTR	ca-dgs-cluster-scan.toppay.com.
+53	IN	PTR	ca-dgs-cluster-scan.toppay.com.
