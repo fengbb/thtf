@@ -1,0 +1,90 @@
+#-*- coding:utf-8 -*-
+##定义使用utf-8编码
+__author__ = 'DN'
+import socket
+import sys
+from paramiko.py3compat import u
+unsupport_cmd_list = ['rz','sz']
+try:
+    import termios
+    import tty
+    import time
+    has_termios = True
+except ImportError:
+    has_termios = False
+#interactive.interactive_shell(chan,main_ins,host_ip,username)
+def interactive_shell(chan,main_ins,host_ip,username,host_ins):
+    if has_termios:
+        posix_shell(chan,main_ins,host_ip,username,host_ins)
+    else:
+        windows_shell(chan)
+def posix_shell(chan,self,host_ip,username,host_ins):
+    import select
+    oldtty = termios.tcgetattr(sys.stdin)
+    try:
+        tty.setraw(sys.stdin.fileno())
+        tty.setcbreak(sys.stdin.fileno())
+        chan.settimeout(0.0)
+        cmd = ''
+        tab_input_flag = False
+        while True:
+            r,w,e = select.select([chan,sys.stdin],[],[])
+            if chan in r:
+                try:
+                    x = u(chan.recv(1024))
+                    if tab_input_flag:
+                        cmd += ''.join(x[:10])
+                        tab_input_flag = False
+                    if len(x) == 0:
+                        sys.stdout.write('\r\n\033[32;lm*** Session Closed ***\033[0m\r\n')
+                        self.flush_cmd_input('*** Session Closed ***',host_ins,2)
+                        break
+                    sys.stdout.write(x)
+                    sys.stdout.flush()
+                except socket.timeout:
+                    pass
+                except UnicodeDecodeError as e:
+                    pass
+            if sys.stdin in r:
+                x = sys.stdin.read(1)
+                if len(x) == 0:
+                    break
+                if not x == '\r':
+                    cmd +=x
+                else:
+                    if len(cmd.strip())>0:
+                        self.flush_cmd_input(cmd,host_ins,0)
+                    if cmd in unsupport_cmd_list:
+                        x = "...Operation is not supported!\r\n"
+                    cmd=''
+                if x == '\t':
+                    tab_input_flag = True
+                chan.send(x)
+    finally:
+        termios.tcgetattr(sys.stdin, termios.TCSADRAIN,oldtty)
+def windows_shell(chan):
+    import threading
+    sys.stdout.write("Line-buffered terminal emulation. Press F6 or ^Z to send EOF.\r\n\r\n")
+    def writeall(sock):
+        while True:
+            data = sock.recv(256)
+            if not data:
+                sys.stdout.write('\r\n\033[32;1m*** Session closed ***\033[0m\r\n\r\n')
+                sys.stdout.flush()
+                break
+            sys.stdout.write(data)
+            sys.stdout.flush()
+    write = threading.Thread(target=writeall, args=(chan,))
+    write.start()
+    try:
+        while True:
+            d = sys.stdin.read(1)
+            if not d:
+                break
+            chan.send(d)
+    except EOFError:
+        pass
+
+
+
+

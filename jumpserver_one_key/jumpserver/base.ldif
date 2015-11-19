@@ -1,0 +1,65 @@
+dn: dc=jumpserver,dc=org
+dc: jumpserver
+objectClass: top
+objectClass: domain
+
+dn: ou=Hosts,dc=jumpserver,dc=org
+ou: Hosts
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Rpc,dc=jumpserver,dc=org
+ou: Rpc
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Services,dc=jumpserver,dc=org
+ou: Services
+objectClass: top
+objectClass: organizationalUnit
+
+dn: nisMapName=netgroup.byuser,dc=jumpserver,dc=org
+nismapname: netgroup.byuser
+objectClass: top
+objectClass: nisMap
+
+dn: ou=Mounts,dc=jumpserver,dc=org
+ou: Mounts
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Networks,dc=jumpserver,dc=org
+ou: Networks
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=People,dc=jumpserver,dc=org
+ou: People
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Group,dc=jumpserver,dc=org
+ou: Group
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Netgroup,dc=jumpserver,dc=org
+ou: Netgroup
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Protocols,dc=jumpserver,dc=org
+ou: Protocols
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=Aliases,dc=jumpserver,dc=org
+ou: Aliases
+objectClass: top
+objectClass: organizationalUnit
+
+dn: nisMapName=netgroup.byhost,dc=jumpserver,dc=org
+nismapname: netgroup.byhost
+objectClass: top
+objectClass: nisMap
+

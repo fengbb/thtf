@@ -1,0 +1,6 @@
+dn: cn=testuser,ou=Group,dc=jumpserver,dc=org
+objectClass: posixGroup
+objectClass: top
+cn: testuser
+userPassword: {crypt}x
+gidNumber: 1000

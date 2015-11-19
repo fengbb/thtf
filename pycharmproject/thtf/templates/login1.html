@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="utf-8">
+    <title>登陆</title>
+    <style>
+        #divuf{
+            width:220px;
+            height: 40px;
+            margin: 400px auto;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data">
+            <div id="divuf" class="uffiel" align="center" >
+                {% for field in uf %}
+            {{ field.label_tag }}{{ field }}
+            {{ field.errors }}
+                {% endfor %}
+            </div>
+    <div class="ufdl" align="center">
+        <input type="submit" value="登录"/>
+    </div>
+
+    </form>
+</body>
+</html>
